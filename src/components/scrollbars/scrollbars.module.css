@@ -1,0 +1,57 @@
+/*-----------------Scroll----------------*/
+.scroller {
+  overflow: auto;
+  /* background: linear-gradient(
+        white 10%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0.4) 70%,
+        transparent
+      )
+      center top,
+    linear-gradient(
+        white 10%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0.4) 70%,
+        transparent
+      )
+      center bottom,
+    radial-gradient(farthest-side at 50% 0, var(--scroll-shadow), #0000) center
+      top,
+    radial-gradient(farthest-side at 50% 100%, var(--scroll-shadow), #0000)
+      center bottom;
+
+  background-repeat: no-repeat;
+  background-size: 100% 40px, 100% 40px, 100% 5px, 100% 5px;
+  background-attachment: local, local, scroll, scroll; */
+  z-index: 99;
+}
+
+.scroller::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.scroller:hover::-webkit-scrollbar-thumb {
+  background: rgba(231, 9, 1, 0.788);
+}
+
+.scroller::-webkit-scrollbar-thumb:horizontal:hover,
+.scroller::-webkit-scrollbar-thumb:vertical:hover {
+  background: rgb(211, 69, 4);
+}
+
+.scroller::-webkit-scrollbar-thumb:horizontal:active,
+.scroller::-webkit-scrollbar-thumb:vertical:active {
+  background: rgb(39, 11, 197);
+}
+
+/*-----------------End----------------*/
