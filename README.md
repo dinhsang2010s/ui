@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+{
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+  "workbench.colorCustomizations": {},
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "foreground": "#0ba3c2ea",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.operator",
+        "settings": {
+          "foreground": "#e6b411ee",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#ce8365e1"
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#df3079e3"
+        }
+      },
+      {
+        "scope": "storage.type",
+        "settings": {
+          "foreground": "#ca6e23c2",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "support.class",
+        "settings": {
+          "foreground": "#12a826d7",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#737468e3"
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#e6db74ce",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.name.class",
+        "settings": {
+          "foreground": "#e6db74ce",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "#12a826d7",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.name.selector",
+        "settings": {
+          "foreground": "#12a826d7",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.name.section",
+        "settings": {
+          "foreground": "#12a826d7",
+          "fontStyle": "bold"
+        }
+      },
 
-## Getting Started
+      //""
+      {
+        "scope": "punctuation.definition.string",
+        "settings": {
+          "foreground": "#f1bb0aee",
+          "fontStyle": "bold"
+        }
+      },
 
-First, run the development server:
+      //PROPS
+      {
+        "scope": "variable.other.readwrite",
+        "settings": {
+          "foreground": "#E1E4E8"
+        }
+      },
+      {
+        "scope": "entity.other.attribute-name",
+        "settings": {
+          "foreground": "#B392F0"
+        }
+      },
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+      // JSON
+      {
+        "scope": "support.type.property-name.json",
+        "settings": {
+          "foreground": "#df3079ec"
+        }
+      },
+      {
+        "scope": "string.quoted.double.json",
+        "settings": {
+          "foreground": "#00a67d"
+        }
+      },
+      {
+        "scope": "constant.numeric.json",
+        "settings": {
+          "foreground": "#ff66cc"
+        }
+      },
+      {
+        "scope": "constant.language.boolean.json",
+        "settings": {
+          "foreground": "#00ff99"
+        }
+      },
+      {
+        "scope": "constant.language.null.json",
+        "settings": {
+          "foreground": "#9999ff"
+        }
+      }
+    ]
+  }
+}
